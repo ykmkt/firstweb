@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+
+body{
+background:linear-gradient(to right, #402662 ,#8000ff);
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .2);
+    z-index: 100;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fefefe;
+     margin-left: 22px;
+
+}
+ .navbar a:hover{
+   color: #e7f61d;
+
+
+}
+
+.logo{
+    font-size:  40px;;
+    font-weight: 1000;
+    text-decoration: none;
+    color: #fefefe;
+
+}
+.nav_links{
+    list-style: none;
+    padding: 0 20px;
+}
+.nav_links li{
+    display: inline-block;
+}
+.nav_links a:active{
+    color: chartreuse;
+}
+
+.skills{
+    margin-top: 40px;
+    font-size: 10px;
+    text-align: center;
+    color: #fefefe;
+    margin-bottom: 5px;
+    letter-spacing: 1.5px;
+}
+.progress1{
+    width: 600px;
+    background: #e4e5da;
+    height: 18px;
+    border-radius: 5px;
+     margin: auto;
+
+}
+.progress1 div {
+    width: 20%;
+    background: #b82424;
+    height: 18px;
+    border-radius: 5px;
+    
+
+}
+.progress2{
+    width: 600px;
+    background: #e4e5da;
+    height: 18px;
+    border-radius: 5px;
+     margin: auto;
+
+}
+.progress2 div {
+    width: 20%;
+    background: #3db824;
+    height: 18px;
+    border-radius: 5px;
+    
+
+}
+.progress3{
+    width: 600px;
+    background: #dddae5;
+    height: 18px;
+    border-radius: 5px;
+     margin: auto;
+
+}
+.progress3 div {
+    width: 38%;
+    background: #2391bc;
+    height: 18px;
+    border-radius: 5px;
+    
+
+}
+.progress4{
+    width: 600px;
+    background: #e4e5da;
+    height: 18px;
+    border-radius: 5px;
+     margin: auto;
+
+}
+.progress4 div {
+    width: 3%;
+    background: #e241af;
+    height: 18px;
+    border-radius: 5px;
+    
+
+}
+.progress5{
+    width: 600px;
+    background: #e4e5da;
+    height: 18px;
+    border-radius: 5px;
+     margin: auto;
+
+}
+.progress5 div {
+    width: 30%;
+    background: #ebf760;
+    height: 18px;
+    border-radius: 5px;
+    
+
+}
+.progress6{
+    width: 600px;
+    background: #e4e5da;
+    height: 18px;
+    border-radius: 5px;
+     margin: auto;
+
+}
+.progress6 div {
+    width: 30%;
+    background: #e5a51b;
+    height: 18px;
+    border-radius: 5px;
+    
+
+}
+.txt{
+    font-size: 20px;
+    color: #e4ead1;
+    margin-top: 40px;
+    text-align: center;
+}
